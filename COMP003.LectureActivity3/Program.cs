@@ -107,6 +107,25 @@ namespace COMP003.LectureActivity3
             }
 
             /************************************************************/
+
+            Console.WriteLine("5. ternary operator");
+            string outputMessage = inputNumber % 2 == 0
+                ? "\tinputNumber is even."
+                : "\tinputNumber is odd.";
+            Console.WriteLine(outputMessage);
+
+            /************************************************************/
+
+            int randomNumber = new Random().Next(10); // generates a random number 10 or below
+            Console.WriteLine("6. comparison operators");
+            Console.WriteLine($"\t{inputNumber} == {randomNumber}: {inputNumber == randomNumber}");
+            Console.WriteLine($"\t{inputNumber} != {randomNumber}: {inputNumber != randomNumber}");
+            Console.WriteLine($"\t{inputNumber} > {randomNumber}: {inputNumber > randomNumber}");
+            Console.WriteLine($"\t{inputNumber} >= {randomNumber}: {inputNumber >= randomNumber}");
+            Console.WriteLine($"\t{inputNumber} < {randomNumber}: {inputNumber < randomNumber}");
+            Console.WriteLine($"\t{inputNumber} <= {randomNumber}: {inputNumber <= randomNumber}");
+
+            /************************************************************/
         }
     }
 }
