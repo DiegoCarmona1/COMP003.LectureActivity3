@@ -78,8 +78,35 @@ namespace COMP003.LectureActivity3
             // multiple if-else statements
             if (inputNumber % 2 == 0)
             {
-
+                // this code block executes if the above condition is true
+                // the rest of the conditions will no longer execute
+                Console.WriteLine("\tinputNumber is divisible by 2.");
             }
+            else if (inputNumber % 3 == 0)
+            {
+                // this code block executes if the above condition is true
+                // the rest of the conditions will no longer execute
+                Console.WriteLine("\tinputNumber is divisible by 3.");
+            }
+            else if (inputNumber % 5 == 0)
+            {
+                // this code block executes if the above condition is true
+                // the rest of the conditions will no longer execute
+                Console.WriteLine("\tinputNumber is divisible by 5.");
+            }
+            else if (inputNumber % 7 == 0)
+            {
+                // this code block executes if the above condition is true
+                // the rest of the conditions will no longer execute
+                Console.WriteLine("\tinputNumber is divisible by 7.");
+            }
+            else
+            {
+                // this code block executes if the above conditions are NOT true
+                Console.WriteLine("\tinputNumber is NOT divisible by 2/3/5/7.");
+            }
+
+            /************************************************************/
         }
     }
 }
